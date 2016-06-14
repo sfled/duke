@@ -1,0 +1,4 @@
+
+C:\Users\eamoore\coursera\duke
+
+browser-sync start --server --files **\*
