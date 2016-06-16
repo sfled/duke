@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<head>
+	<title>Week 2 - My Interests, now with Images!</title>
+</head>
+<style>
+
+	body {
+		color: #333;
+		font-family: Arial, Helvetica, sans-serif;
+		text-align:center;
+	}
+
+	section.main {
+		margin-left:auto;
+		margin-right: auto;
+		min-width:800px;
+		display:block;
+	}
+
+	section.main table {
+		margin-left:auto;
+		margin-right: auto;
+		text-align: center;
+	}
+
+
+	section.main table th {
+		font-size: 1.1em;
+	}
+
+	section.main table td {
+		font-style:italic;
+		padding: 10px 10px 20px 10px;
+	}
+
+	section.main table td img{
+		border:solid 1px #000;
+	}
+
+	section.main ul {
+		margin-left:auto;
+		margin-right: auto;
+		text-align: left;
+		width:760px;
+	}
+
+	footer {
+		font-size: .8em;
+		font-weight: bold;
+	}
+
+</style>
+
+<body>
+	<header>
+		<h1>My Interests, now with Images and CSS</h1>
+		<nav><p><a href="index.html">Up a level</a></p></nav>
+	</header>
+	
+	<section class="main">
+		<h2>Tabular Format</h2>
+		<table>
+			<tr>
+				<th>Outdoors</th>
+				<th>Indoors</th>
+				<th>Anywhere</th>
+			</tr>
+
+			<tr>
+				<td><img src="images/running.jpg" width="240" alt="running" /><br>Running</td>
+				<td><img src="images/reading.jpg" width="240" alt="reading" /><br>Reading</td>
+				<td><img src="images/cheeseburger.jpg" width="240" alt="cheeseburger" /><br>Eating</td>
+			</tr>
+
+			<tr>
+				<td><img src="images/biking.jpg" width="240" alt="biking" /><br>Biking</td>
+				<td><img src="images/browsing.jpg" width="240" alt="web browsing" /><br>Web browsing</td>
+				<td><img src="images/music.jpg" width="240" alt="B. Holiday" /><br>Music</td>
+			</tr>
+		</table>
+
+		<h2>Nested List</h2>
+		<ul>
+			<li>Outdoors</li>
+				<ul>
+					<li>Running</li>
+					<li>Biking</li>
+				</ul>
+			<li>Indoors</li>
+				<ul>
+					<li>Reading</li>
+					<li>Web Browsing</li>
+				</ul>
+			<li>Anywhere</li>
+				<ul>
+					<li>Eating</li>
+					<li>Music</li>
+				</ul>
+		</ul>
+	</section>
+
+	<footer>
+			<p>Last updated: 2016-06-15</p>
+	</footer>
+</body>
+</html>
