@@ -7,14 +7,24 @@
 <style>
 
 	body {
-		color: #333;
+		background-color: #111;
+		color: #ccc;
 		font-family: Arial, Helvetica, sans-serif;
 		text-align:center;
+		margin:0;
+		padding:0;
+	}
+
+	a {
+		color:violet;
+		font-weight:bold;
 	}
 
 	.main {
+		background-color: #333;
 		margin-left:auto;
 		margin-right: auto;
+		padding:1em 0;
 		min-width:800px;
 		display:block;
 	}
@@ -39,10 +49,36 @@
 	}
 
 	.main ul {
+		list-style: none;
 		margin-left:auto;
 		margin-right: auto;
 		text-align: left;
 		width:760px;
+	}
+
+	.main ul li {
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+
+	.main ul ul{
+		
+		margin-bottom: 2em;
+	}
+
+	.main ul li, ul ul li{
+		margin-bottom: 1em;
+	}
+
+	.main ul ul li img{
+		border:solid 1px #000;
+		width:120px;
+	}
+
+	.main ul ul li {
+		font-size: 1em;
+		font-weight: normal;
+		font-style: italic;
 	}
 
 	footer {
@@ -54,7 +90,7 @@
 
 <body>
 	<header>
-		<h1>My Interests, now with Images and CSS</h1>
+		<h1>My Interests, now with Images, CSS &amp; Colors!</h1>
 		<nav><p><a href="index.html">Up a level</a></p></nav>
 	</header>
 	
@@ -84,18 +120,18 @@
 		<ul>
 			<li>Outdoors</li>
 				<ul>
-					<li>Running</li>
-					<li>Biking</li>
+					<li><img src="images/running.jpg" width="240" alt="running" /><br><span>Running</span></li>
+					<li><img src="images/biking.jpg" width="240" alt="biking" /><br>Biking</li>
 				</ul>
 			<li>Indoors</li>
 				<ul>
-					<li>Reading</li>
-					<li>Web Browsing</li>
+					<li><img src="images/reading.jpg" width="240" alt="reading" /><br>Reading</li>
+					<li><img src="images/browsing.jpg" width="240" alt="web browsing" /><br>Web Browsing</li>
 				</ul>
 			<li>Anywhere</li>
 				<ul>
-					<li>Eating</li>
-					<li>Music</li>
+					<li><img src="images/cheeseburger.jpg" width="240" alt="cheeseburger" /><br>Eating</li>
+					<li><img src="images/music.jpg" width="240" alt="B. Holiday" /><br>Music</li>
 				</ul>
 		</ul>
 	</section>
